@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Pages with JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="messageBtn">Click Me</button>
+    <p id="messageOutput"></p>
+
+    <div id="colorBox" style="width:150px;height:150px;background:lightgray;margin-top:10px;">
+      Hover over me!
+    </div>
+
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <p id="keyOutput"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+    <button id="toggleThemeBtn">Toggle Light/Dark Mode</button>
+
+    <h3>Counter</h3>
+    <button id="decreaseBtn">-</button>
+    <span id="counterValue">0</span>
+    <button id="increaseBtn">+</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="myForm">
+      <label>Name: <input type="text" id="name" /></label>
+      <p id="nameError" class="error"></p>
+
+      <label>Email: <input type="text" id="email" /></label>
+      <p id="emailError" class="error"></p>
+
+      <label>Password: <input type="password" id="password" /></label>
+      <p id="passwordError" class="error"></p>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
